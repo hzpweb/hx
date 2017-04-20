@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			*{margin: 0;padding: 0;}
+			
+			#nav{
+				width: 100%;
+				height: 106px;
+				background-color: #FFFFFF;
+				position: fixed;
+			}
+			#nav_1{
+				width: 1192px;
+				height: 106px;
+				position: relative;
+				margin: 0 auto;
+			}
+			.nav_1_1{
+				width: 202px;
+				height: 45px;
+				background-image: url(img/1.png);
+				position: absolute;
+				top: 37px;
+			}
+			.nav_1_2 ul{
+				position: absolute;
+				left: 270px;
+				top: 60px;
+			}
+			.nav_1_2 ul li{
+				list-style: none;
+				float: left;
+				margin-left: 60px;
+				font-size: 18px;
+			}
+			.nav_1_2 ul li:hover{
+				color: red;
+				font-size: 18px;
+			}
+			.nav_1_3{
+				width: 210px;
+				height: 18px;
+				position: absolute;
+				top: 13px;
+				left: 980px;
+				font-size: 14px;
+			}
+			.nav_1_4{
+				position: absolute;
+				left: 1030px;
+				top: 55px;
+			}
+			.nav_1_4_1{
+				font-size: 20px;
+			}
+			#kong{
+				width: 100%;
+				height: 106px;
+			}
+			#header{
+				width: 100%;
+				height: 349px;
+				background-color: #F1F1F1;
+			}
+			.header_1{
+				width: 1189px;
+				height: 349px;
+				margin: 0 auto;
+			}
+			#bodyer{
+				width: 100%;
+				height: 2360px;
+				background-color: #f1f1f1;
+			}
+			.bodyer_1{
+				width: 1150px;
+				height: 220px;
+				background-color: white;
+				margin: 0 auto;
+				padding:0 20px;
+			}
+			.bodyer_1_ul{
+				list-style: none;
+				
+			}
+			.bodyer_1_ul li{
+				border-bottom: 1px solid #E9E9E9;
+				line-height: 54px;
+			}
+			#bodyer_1_ul_4{
+				border-bottom: 1px solid #E9E9E9;
+			}
+			.bodyer_1_ul ul{
+				list-style: none;
+				position: relative;
+				left: 55px;
+				top: -53px;
+			}
+			.bodyer_1_ul ul li{
+				float: left;
+				margin-left:25px;
+				border-bottom: none;
+			}
+			.bodyer_1_ul_1{
+				float: right;
+				position: relative;
+				top: -53px;
+			}
+			.bodyer_2{
+				
+			}
+			.bodyer_2_table{
+				margin: 0 auto;
+				background-color: white;
+			}
+			.bodyer_2_table_td{
+				width: 297px;
+				height: 490px;
+				text-align:center;
+				line-height: 26px;
+			}
+			.bddyer_3{
+				width: 1190px;
+				height: 69px;
+				background-color: white;
+				margin: 0 auto;
+				margin-top: 16px;
+			}
+			.bddyer_3_ul {
+				width: 276px;
+				height: 30px;
+				margin:0 auto;
+				position: relative;
+				top: 21px;
+			}
+			.bddyer_3_ul ul li{
+				list-style: none;
+				float: left;
+				padding: 6px 10px 6px 10px ;
+				border: 1px solid #eeeeee;
+				font-size: 10px;
+				margin-left: 7px;
+			}
+			#footer{
+				width: 100%;
+				height: 560px;
+				background-color: #EAEAEA;
+			}
+			.footer_1{
+				width: 100%;
+				height: 147px;
+				background-color: white;
+			}
+			.footer_1_ul{
+				width: 1190px;
+				height: 147px;
+				margin: 0 auto;
+			}
+			.footer_1_ul ul li{
+				float: left;
+				width: 291.55px;
+				height: 47px;
+			}
+			.footer_1_ul_li1{
+				width: 140px;
+				height: 47px;
+				list-style: none;
+				position: relative;
+				top: 60px;
+			}
+			.footer_1_ul_li1 img{
+				float: left;margin-right: 10px;
+			}
+			.footer_1_ul_li1 span{
+				float: left;line-height: 20px;font-size: 16px;color: #777;
+			}
+			.footer_2{
+				width: 100%;
+				height: 255px;
+				background-color: white;
+				position: relative;
+				top: 1px;
+			}
+			.footer_2_tab{
+				width: 1190px;
+				height: 255px;
+				margin: 0 auto;
+
+			}
+			.footer_2_tab th{
+				text-align: left;
+				font-weight: 500;
+				font-size: larger;
+			}
+			.footer_3{
+				width: 100%;
+				height: 157px;
+				background-color: #333333;
+			}
+		</style>
+	</head>
+	<body>
+		<!------------------------------------------------------------------------------------------------------>
+		<div id="nav">
+			<div id="nav_1">
+				<div class="nav_1_1">
+					
+				</div>
+				<div class="nav_1_2">
+					<ul>
+						<li>首页</li>
+						<li>手机</li>
+						<li>配件</li>
+						<li>服务</li>
+						<li>下载</li>
+						<li>社区</li>
+						<li>amigoOS</li>
+					</ul>
+				</div>
+				<div class="nav_1_3">
+					<span>您好，请登录</span>
+					<hr size=14 width="1" color="#999999" style="display: inline;";>
+					<span>注册</span>
+				</div>
+				<div class="nav_1_4">
+					<form action="" method="post" >
+						<input type="text" name="nav_1_4_1" class="nav_1_4_1" value="输入搜索内容" />
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-------------------------------------------------------------------------------------------->
+		<div id="kong">
+			
+		</div>
+		<div id="header">
+				<div class="header_1">
+					<img src="img/2.png"/>
+				</div>
+		</div>
+		<!------------------------------------------------------------------------------------------------------->
+		<div id="bodyer">
+			<div class="bodyer_1">
+				<ul class="bodyer_1_ul">
+					<li >
+						手机分类:<input type="radio" name="q" checked="checked"/>全部
+						<input type="radio" name="q" />智能手机
+						<input type="radio" name="q"/>功能手机
+					</li>
+					<li>手机外观:
+						<input type="radio" name="w" checked="checked"/>全部
+						<input type="radio" name="w"/>触屏
+						<input type="radio" name="w"/>直板
+						<input type="radio" name="w"/>翻盖
+					</li>
+					<li>手机系列:
+						<input type="radio" name="e" checked="checked"/>全部
+						<input type="radio" name="e"/>M系列
+						<input type="radio" name="e"/>S系列
+						<input type="radio" name="e"/>天鉴系列
+						<input type="radio" name="e"/>F系列
+						<input type="radio" name="e"/>金刚系列
+						<input type="radio" name="e"/>其他机型
+					</li>
+					<li>排列方式:
+						<ul >
+							<li>上架时间</li>
+							<li>价格</li>
+							<li>销量</li>
+						</ul>
+						<span class="bodyer_1_ul_1">显示在售商品</span>
+					</li>
+				</ul>
+			</div>
+			<div class="bodyer_2">
+				<table class="bodyer_2_table" rules="all" cellspacing="0" cellpadding="0">
+					<tr>
+						<td class="bodyer_2_table_td">
+							<img style="position: relative;top: -12px;" src="img/3.png"/>
+							<p><b>天鉴W808</b></p>
+							<p>最尊贵的折叠翻盖智能手机</p>
+							<p>查看详情</p>
+						</td>
+						<td class="bodyer_2_table_td">
+							<img style="position: relative;top: -12px;" src="img/4.png"/>
+							<p><b>天鉴W808</b></p>
+							<p>最尊贵的折叠翻盖智能手机</p>
+							<p>查看详情</p>
+						</td>
+						<td class="bodyer_2_table_td">
+							<img style="position: relative;top: -12px;" src="img/4.png"/>
+							<p><b>天鉴W808</b></p>
+							<p>最尊贵的折叠翻盖智能手机</p>
+							<p>查看详情</p>
+						</td>
+						<td class="bodyer_2_table_td">
+							<img style="position: relative;top: -12px;" src="img/4.png"/>
+							<p><b>天鉴W808</b></p>
+							<p>最尊贵的折叠翻盖智能手机</p>
+							<p>查看详情</p>
+						</td>
+					</tr>
+					<tr>
+						<td class="bodyer_2_table_td">
+							<img style="position: relative;top: -12px;" src="img/3.png"/>
+							<p><b>天鉴W808</b></p>
+							<p>最尊贵的折叠翻盖智能手机</p>
+							<p>查看详情</p>
+						</td>
+						<td class="bodyer_2_table_td">
+							<img style="position: relative;top: -12px;" src="img/4.png"/>
+							<p><b>天鉴W808</b></p>
+							<p>最尊贵的折叠翻盖智能手机</p>
+							<p>查看详情</p>
+						</td>
+						<td class="bodyer_2_table_td">
+							<img style="position: relative;top: -12px;" src="img/4.png"/>
+							<p><b>天鉴W808</b></p>
+							<p>最尊贵的折叠翻盖智能手机</p>
+							<p>查看详情</p>
+						</td>
+						<td class="bodyer_2_table_td">
+							<img style="position: relative;top: -12px;" src="img/4.png"/>
+							<p><b>天鉴W808</b></p>
+							<p>最尊贵的折叠翻盖智能手机</p>
+							<p>查看详情</p>
+						</td>
+					</tr>
+					<tr>
+						<td class="bodyer_2_table_td">
+							<img style="position: relative;top: -12px;" src="img/3.png"/>
+							<p><b>天鉴W808</b></p>
+							<p>最尊贵的折叠翻盖智能手机</p>
+							<p>查看详情</p>
+						</td>
+						<td class="bodyer_2_table_td">
+							<img style="position: relative;top: -12px;" src="img/4.png"/>
+							<p><b>天鉴W808</b></p>
+							<p>最尊贵的折叠翻盖智能手机</p>
+							<p>查看详情</p>
+						</td>
+						<td class="bodyer_2_table_td">
+							<img style="position: relative;top: -12px;" src="img/4.png"/>
+							<p><b>天鉴W808</b></p>
+							<p>最尊贵的折叠翻盖智能手机</p>
+							<p>查看详情</p>
+						</td>
+						<td class="bodyer_2_table_td">
+							<img style="position: relative;top: -12px;" src="img/4.png"/>
+							<p><b>天鉴W808</b></p>
+							<p>最尊贵的折叠翻盖智能手机</p>
+							<p>查看详情</p>
+						</td>
+					</tr>
+					<tr>
+						<td class="bodyer_2_table_td">
+							<img style="position: relative;top: -12px;" src="img/3.png"/>
+							<p><b>天鉴W808</b></p>
+							<p>最尊贵的折叠翻盖智能手机</p>
+							<p>查看详情</p>
+						</td>
+						<td class="bodyer_2_table_td">
+							<img style="position: relative;top: -12px;" src="img/4.png"/>
+							<p><b>天鉴W808</b></p>
+							<p>最尊贵的折叠翻盖智能手机</p>
+							<p>查看详情</p>
+						</td>
+						<td class="bodyer_2_table_td">
+							<img style="position: relative;top: -12px;" src="img/4.png"/>
+							<p><b>天鉴W808</b></p>
+							<p>最尊贵的折叠翻盖智能手机</p>
+							<p>查看详情</p>
+						</td>
+						<td class="bodyer_2_table_td">
+							<img style="position: relative;top: -12px;" src="img/4.png"/>
+							<p><b>天鉴W808</b></p>
+							<p>最尊贵的折叠翻盖智能手机</p>
+							<p>查看详情</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="bddyer_3">
+				<div class="bddyer_3_ul">
+					<ul>
+						<li>上一页</li>
+						<li>1</li>
+						
+						<li>2</li>
+						<li>3</li>
+						<li>4</li>
+						<li>下一页</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="footer_1">
+				<div class="footer_1_ul">
+					<ul>
+						<li class="footer_1_ul_li1">
+							<img  src="img/5.png"/>
+							<span>7天<br />退货保障</span>
+						</li>
+						<li class="footer_1_ul_li1">
+							<img src="img/5.png"/>
+							<span>7天<br />退货保障</span>
+						</li>
+						<li class="footer_1_ul_li1">
+							<img src="img/5.png"/>
+							<span>7天<br />退货保障</span>
+						</li>
+						<li class="footer_1_ul_li1">
+							<img src="img/5.png"/>
+							<span>7天<br />退货保障</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer_2">
+				<div class="footer_2_tab">
+					<table width="1170px" height="198px" border="0" cellspacing="" cellpadding="">
+						<tr><th>关于金立</th><th>新闻资讯</th><th>购物指南</th><th>售后服务</th><th>关注我们</th></tr>
+						<tr><td>企业荣誉</td><td>公司新闻</td><td>购物流程</td><td>售后政策</td><td>新浪微博</td></tr>
+						<tr><td>金立体验店</td><td>媒体报道</td><td>支付方式</td><td>售后服务网点</td><td>腾讯微博</td></tr>
+						<tr><td>代理商专区</td><td>金立月刊</td><td>配送说明及费用</td><td>上门维修</td><td>QQ空间</td></tr>
+						<tr><td>加入金立</td><td></td><td>订单管理</td><td>签收须知</td><td></td></tr>
+						<tr><td>联系我们</td><td></td><td>购买常见问题</td><td>物流查询</td><td></td></tr>
+					</table>
+				</div>
+			</div>
+			<div class="footer_3">
+				
+			</div>
+		</div>
+	</body>
+</html>
